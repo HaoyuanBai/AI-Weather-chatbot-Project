@@ -1,0 +1,19 @@
+Read Me:
+
+Weather Chatbot Project
+
+Author: Haoyuan Bai
+
+LANGUAGE: Python 3.9
+
+
+DESCRIPTION:
+	The project consists of three parts, CYKParse.py is using the C1K(with added grammar rules and lexicon rules) to parse the sentence based on speech. Proj1.py handles the greeting, gets the real temperature using OpenWeather API, suggests the user the best cloth to wear and it is the main file to run. Tree.py uses binary tree to carry extra piece of information, lexicon Item on each leaf 
+
+Libraries:
+
+	pip install requests, json, re, string, 
+	pip install datetime # find current date and also use for weather search on specific past day
+	from geotext import GeoText #find location 
+	from geopy.geocoders import Nominatim# use location to find latitude and longitude 
+	from nltk.corpus import words # use for the tokenize
